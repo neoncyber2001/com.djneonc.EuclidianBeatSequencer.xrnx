@@ -32,14 +32,6 @@ local tool_id = manifest:property("Id").value
 -- Main functions
 --------------------------------------------------------------------------------
 
--- This example function is called from the GUI below.
--- It will return a random string. The GUI function displays 
--- that string in a dialog.
-local function get_greeting()
-  local words = {"Hello world!", "Nice to meet you :)", "Hi there!"}
-  local id = math.random(#words)
-  return words[id]
-end
 
 
 local function build_column(tHits,tOffset,tNote,tVolume,tIns,tNoteCol)
@@ -168,8 +160,9 @@ local function show_dialog()
     width=255,
     margin = 10,
     vb:horizontal_aligner{
-      mode="justify",
+      mode="left",
       vb:column{
+        width=96,
         vb:text{
          text="Insturment"
         }
@@ -181,8 +174,9 @@ local function show_dialog()
       }
     },
     vb:horizontal_aligner{
-      mode="justify",
+      mode="left",
      vb:column{
+        width=96,
         vb:text{
          text="Note Column"
         }
@@ -195,8 +189,9 @@ local function show_dialog()
     },
     
     vb:horizontal_aligner{
-      mode="justify",
+      mode="left",
       vb:column{
+        width=96,
         vb:text{
          text = "Number Of Hits"
        }
@@ -210,8 +205,9 @@ local function show_dialog()
     },
     
     vb:horizontal_aligner{
-      mode="justify",
-      vb:column{    
+      mode="left",
+      vb:column{
+        width=96,    
         vb:text{
          text = "Offset"
         }
@@ -224,8 +220,9 @@ local function show_dialog()
     },
     
     vb:horizontal_aligner{
-      mode="justify",
+      mode="left",
       vb:column{
+        width=96,
         vb:text{
          text="Drum Note"
         }
@@ -239,8 +236,9 @@ local function show_dialog()
     },
     
     vb:horizontal_aligner{
-      mode="justify",
+      mode="left",
       vb:column{
+       width=96,
        vb:text{
          text="Velocity"
         }
