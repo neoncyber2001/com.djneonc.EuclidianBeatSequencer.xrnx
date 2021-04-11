@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RenoiseScriptingTool doc_version="0">
+  <Name>Euclidian Rythm Generator</Name>
+  <Id>com.djneonc.EuclidianBeatSequencer</Id>
+  <Version>1</Version>
+  <ApiVersion>6.1</ApiVersion>
+  <Author>DJNEONC   | djneonc@gmail.com </Author>
+  <AutoUpgraded>false</AutoUpgraded>
+  <Category>Pattern Editor</Category>
+  <Description>Euclidian Rythm Generator implemented for Renoise</Description>
+  <Homepage>http://tools.renoise.com</Homepage>
+  <Platform/>
+  <Icon/>
+</RenoiseScriptingTool>
