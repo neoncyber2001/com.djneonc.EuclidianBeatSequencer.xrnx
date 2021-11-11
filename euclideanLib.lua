@@ -37,7 +37,8 @@ EuclideanLib.noteColumn={
   drum_note=36,
   steps=64,
   hits=16,
-  offset=0
+  offset=0,
+  volume=128
 }
  
 function EuclideanLib.InitDataObj(columns)
